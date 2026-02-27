@@ -1,5 +1,5 @@
 export default {
-  base: "/yc-docs/",
+  base: "/",
   // 网站标题
   title: "YC文档",
   // 网站描述
