@@ -66,7 +66,60 @@ export default {
           items: [
             {
               text: "设置",
-              link: "/guide/detailed/setting",
+              link: "/guide/detailed/setting/setting",
+              items: [
+                {
+                  text: "基础设置",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "分辨率适配",
+                      link: "/guide/detailed/setting/basic setting/resolution",
+                    },
+                    {
+                      text: "自动关机",
+                      link: "/guide/detailed/setting/basic setting/shutdown",
+                    },
+                    {
+                      text: "无头模式",
+                      link: "/guide/detailed/setting/basic setting/headless",
+                    },
+                  ],
+                },
+                {
+                  text: "值日与课表",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "值日更新时间",
+                      link: "/guide/detailed/setting/duty and class/update duty",
+                    },
+                    {
+                      text: "duty偏移量",
+                      link: "/guide/detailed/setting/duty and class/duty offset",
+                    },
+                  ],
+                },
+                {
+                  text: "网络与U盘管理",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "网络与U盘管理",
+                      link: "/guide/detailed/setting/network and u disk/network and u disk",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              text: "快捷键",
+              link: "/guide/detailed/shortcut",
+            },
+            {
+              text: "控制台",
+              link: "/guide/detailed/console/console",
+              items: [{ text: "联网控制", link: "/guide/nan" }],
             },
           ],
         },
